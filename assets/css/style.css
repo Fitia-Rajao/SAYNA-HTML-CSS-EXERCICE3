@@ -1,0 +1,72 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900");
+ff {
+    color: #FFFFFF #27242b #27242b #3d9f96 #322f36 #f7f7f7 #f9f9f9 #ababab #7e7e7e #27242b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.fine {
+    font-weight: 200;
+}
+
+body {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+header {
+    /* height: 10vh; */
+    background: url(../img/header_bg.jpg);
+}
+
+.bleu img {
+    width: 40%;
+}
+
+.link {
+    text-decoration: underline;
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.nav {
+    font-family: Raleway, Arial, sans-serif;
+    font-weight: bold;
+}
+
+.separator {
+    color: #ababab;
+}
+
+.blanc {
+    color: #FFFFFF;
+    font-size: x-large;
+}
+
+.vert {
+    color: #3d9f96;
+    font-size: small;
+}
+
+.texte {
+    font-family: Open Sans, Arial, sans-serif;
+    color: #7e7e7e;
+    font-size: small;
+}
+
+.btn-success {
+    border-radius: 25px;
+    width: 3cm;
+    background-color: #3d9f96;
+    margin-bottom: 5%;
+}
+
+.col-12 {
+    width: inherit;
+}
