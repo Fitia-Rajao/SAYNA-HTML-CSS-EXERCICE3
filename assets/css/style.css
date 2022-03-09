@@ -1,5 +1,5 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900");
-ff {
+couleurs {
     color: #FFFFFF #27242b #27242b #3d9f96 #322f36 #f7f7f7 #f9f9f9 #ababab #7e7e7e #27242b;
 }
 
@@ -62,11 +62,20 @@ header {
 
 .btn-success {
     border-radius: 25px;
-    width: 3cm;
+    width: 5cm;
     background-color: #3d9f96;
     margin-bottom: 5%;
 }
 
-.col-12 {
-    width: inherit;
+.socialIcon img {
+    padding: 0 2%;
+    width: 8%;
+}
+
+.background {
+    background-image: url(../img/map_bg.png);
+}
+
+.background2 {
+    background-image: url(../img/header_bg.jpg);
 }
